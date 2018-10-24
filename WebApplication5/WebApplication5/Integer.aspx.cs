@@ -48,7 +48,7 @@ namespace WebApplication5
         {
             double sum = 0;
             for (int i = 1; i <= n; i++)
-                sum += 1.0+(1.0 / Factorial(i));
+                sum +=1+ 1.0+(1.0 / Factorial(i));
 
             return sum;
         }
